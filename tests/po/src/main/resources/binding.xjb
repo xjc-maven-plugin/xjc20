@@ -1,0 +1,12 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+	jaxb:extensionBindingPrefixes="xjc"
+	xmlns:test="urn:test">
+
+	<jaxb:bindings schemaLocation="purchaseorder.xsd" node="/xsd:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.hisrc.xjc.maven.tests.po"/>
+		</jaxb:schemaBindings>		
+	</jaxb:bindings>
+</jaxb:bindings>
